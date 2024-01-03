@@ -50,4 +50,24 @@ public class ToyService {
         }
         return studentList;
     }
+    private Toy findMaxToy(List<Toy> toyList ){
+        Toy ToyMax = toyList.get(0);
+        int num = 0;
+        for (int i = 0; i < toyList.size(); i++) {
+            if (ToyMax.getCost() < toyList.get(i).getCost()){
+                num = i;
+            }
+        }
+        return toyList.remove(num);
+    }
+    public List<Toy> winToy(int n, List<Toy> toyList  ){
+        List<Toy> winListToy =new ArrayList<>();
+        while (n>0){
+            Toy toy = findMaxToy(toyList);
+            winListToy.add(toy);
+            n = n-1;
+        }
+        return winListToy;
+    }
+
 }

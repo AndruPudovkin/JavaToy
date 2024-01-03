@@ -21,11 +21,10 @@ public class PlotFormationToy extends Toy {
 
     @Override
     public String toString() {
-        return "PlotFormation{" +
-                "id=" + super.getId() +
-                ", name='" + super.getName() + '\'' +
-                ", cost=" + super.getCost()+
-                "plot='" + plot + '\'' +
-                '}';
+        return "PlotFormation-" +
+                "id-" + super.getId() +
+                "-name-'" + super.getName() + '\'' +
+                "-cost-" + super.getCost()+
+                "-plot-'" + plot + '\'' ;
     }
 }

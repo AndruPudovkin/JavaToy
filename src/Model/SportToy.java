@@ -22,11 +22,10 @@ public class SportToy extends Toy {
 
     @Override
     public String toString() {
-        return "SportToy{" +
-                "id=" + super.getId() +
-                ", name='" + super.getName() + '\'' +
-                ", cost=" + super.getCost()+
-                "sport='" + sport + '\'' +
-                '}';
+        return "SportToy-" +
+                "id-" + super.getId() +
+                "-name-'" + super.getName() + '\'' +
+                "-cost-" + super.getCost()+
+                "-sport-'" + sport + '\'';
     }
 }

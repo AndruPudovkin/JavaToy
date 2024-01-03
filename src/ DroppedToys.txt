@@ -1,0 +1,3 @@
+SportToy-id-1-name-'Мяч'-cost-1-sport-'Для игры в Футбол'
+PlotFormation-id-2-name-'LEGO'-cost-2-plot-'Контруктор'
+EntertainmentToy-id-3-name-'Ведьмак 3'-cost-3

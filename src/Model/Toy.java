@@ -37,10 +37,9 @@ public abstract class Toy {
 
     @Override
     public String toString() {
-        return "Toy{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", cost=" + cost +
-                '}';
+        return "Toy-" +
+                "id-" + id +
+                "-name-'" + name + '\'' +
+                "-cost-" + cost ;
     }
 }
